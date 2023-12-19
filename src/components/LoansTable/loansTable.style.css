@@ -1,0 +1,32 @@
+.loans_table {
+  margin: 0;
+  padding: 3.56253em 14.6875em;
+}
+.table_tabs{
+    width: 100%;
+    display: flex;
+}
+.table_tab{
+    width: 20%;
+    height: 2.125em;
+    border: 1px solid #BBC8CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.table_tab:hover{
+    transition: 0.3s ease;
+    background-color: #e2ecef;
+}
+.table_tab:first-child{
+    border-top-left-radius: 0.5em;
+}
+.table_tab:last-child{
+    border-top-right-radius: 0.5em;
+}
+.tab_name{
+    font-size: 0.875em;
+    color: #616060;
+}

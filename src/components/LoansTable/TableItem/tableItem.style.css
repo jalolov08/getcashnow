@@ -1,0 +1,74 @@
+.table_item {
+  display: flex;
+  width: 100%;
+  border: 1px solid #bbc8cc;
+  height: 6.25em;
+  border-top: none;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+
+}
+.table_item:hover{
+    transition: 0.3s ease;
+    background-color: #fff5e7;
+}
+.table_row {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.row_mfo {
+  width: 80%;
+}
+.row_sum,
+.row_inday {
+  font-size: 1em;
+  font-weight: bold;
+  color: #616060;
+}
+.row_badge {
+  padding: 0em 1.5em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ed6e58;
+  border-radius: 2.375em;
+}
+
+.badge_text {
+  margin: 0;
+  color: #fff;
+  font-size: 0.875em;
+  font-weight: bold;
+}
+.row_age {
+  font-size: 1em;
+  color: #616060;
+  font-weight: 400;
+}
+.row_btn {
+  font-size: 1em;
+  color: #56ccf2;
+  border: 2px solid #56ccf2;
+  background-color: #fff;
+  border-radius: 2.125em;
+  padding: 0.5em 1.1875em;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.row_btn:hover{
+    color: #fff;
+    background-color: #56ccf2;
+  transition: 0.3s ease;
+
+}
+.row_advertising{
+    width: 80%;
+    margin: 0;
+    text-align: center;
+    font-size: 0.6em;
+    color: #616060;
+}

@@ -30,3 +30,35 @@
     font-size: 0.875em;
     color: #616060;
 }
+@media only  screen and (min-width: 1920px) {
+    .loans_table {
+      padding: 3.56253em 29.6875em;
+    }
+  }
+  @media  screen and (max-width: 1200px) {
+    .loans_table {
+      padding: 3.56253em 8em;
+    }
+  }
+  @media  screen and (max-width: 1024px) {
+    .loans_table {
+      padding: 3.56253em 1.6875em;
+    }
+  }
+  
+@media  screen and (max-width: 768px) {
+    .loans_table {
+      padding: 1.6875em 1em;
+    }
+    .table_tab{
+        width: 34%;
+    }
+    .table_tab:first-child{
+        display: none;
+    }
+    .table_tab:last-child{
+        display: none;
+    }
+  }
+  
+  

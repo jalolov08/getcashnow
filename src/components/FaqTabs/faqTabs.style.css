@@ -1,0 +1,113 @@
+.tabs {
+  margin: 0;
+  padding: 1.5em 14.6875em;
+}
+.react-tabs__tab-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.react-tabs__tab {
+  padding: 0.75em 1.375em;
+  cursor: pointer;
+  background-color: #56ccf2;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.react-tabs__tab:hover {
+  background-color: #50b1d2;
+
+  transition: 0.3s;
+}
+
+.react-tabs__tab--selected {
+  border-radius: 0;
+  background-color: #fff;
+  color: #333333;
+  transition: 0.3s;
+  border: 1px solid #56ccf2;
+}
+.react-tabs__tab--selected:hover {
+  background-color: #56ccf2;
+  transition: 0.3s;
+  color: #fff;
+}
+.react-tabs__tab-panel {
+  border: 1px solid #bbc8cc;
+}
+.tab_content{
+    margin: 0;
+    padding: 1em;
+
+}
+.tab_title {
+  font-size: 2.25em;
+  color: #616060;
+  margin: 0;
+
+}
+.tab_content_subtitle{
+    font-size: 0.875em;
+    color: #616060;
+}
+.tab_list{
+    margin: 0;
+    padding: 1em;
+    list-style:decimal;
+}
+.tab_list_title , .tab_list_item{
+    margin: 0;
+    font-size: 0.875em;
+    color: #616060;
+}
+.tab_cards_cont{
+  display: flex;
+  padding: 1em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tab_card{
+  width: 22%;
+}
+.tab_card_title{
+  font-size: 1em;
+  color: #616060;
+}
+.tab_card_list{
+  list-style: none;
+  padding:  0em;
+  border: 1px solid #bbc8cc;
+}
+.tab_card_list_item{
+  padding: 0.5em;
+  border-bottom: 1px solid #bbc8cc;
+  color: #616060;
+
+}
+.tab_card_list_item:last-child{
+  border: none;
+}
+@media only screen and (max-width: 432px) {
+  .tabs {
+   display: none;
+
+  }
+}
+@media  screen and (max-width: 1024px) {
+  .tabs {
+    padding: 3.56253em 1.6875em;
+  }
+}
+
+@media  screen and (max-width: 1200px) {
+  .tabs {
+    padding: 3.56253em 8em;
+  }
+}
+@media only  screen and (min-width: 1920px) {
+  .tabs {
+    padding: 3.56253em 29.6875em;
+  }
+}

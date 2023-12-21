@@ -1,0 +1,23 @@
+.accordion {
+  border: none;
+  margin: 1em;
+  overflow: hidden;
+  display: none;
+}
+.accordion__heading {
+  color: #fff;
+}
+.accordion__button {
+  background-color: #56ccf2;
+  color: #fff;
+  font-weight: 600;
+}
+.accordion__button:hover {
+  background-color: #4fc5ec;
+}
+@media only screen and (max-width: 432px) {
+  .accordion {
+   display: block;
+
+  }
+}

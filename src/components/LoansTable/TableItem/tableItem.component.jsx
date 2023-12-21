@@ -23,7 +23,7 @@ export default function TableItem({ data }) {
         </div>
         <div className='table_row'>
           <div style={{ display: "flex", flexWrap: "wrap" }}>
-            <a href={data.link}>
+            <a href={data.link} target='__blank'>
               <button className='row_btn'>Получить деньги</button>
             </a>
             <p className='row_advertising'>Реклама.{data.advertising} ИНН {data.TIN}</p>

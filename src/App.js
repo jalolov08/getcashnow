@@ -5,6 +5,8 @@ import Cards from "./components/Cards/cards.component";
 import LoansTable from "./components/LoansTable/loansTable.component";
 import FaqTabs from "./components/FaqTabs/faqTabs.component";
 import FaqAccordion from "./components/FaqAccordion/faqAccordion.component";
+import Footer from "./components/Footer/footer.component";
+import Modal from "./components/Notice/notice.component";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <LoansTable />
         <FaqTabs />
         <FaqAccordion />
+        <Footer/>
+        <Modal />
     </div>
   );
 }

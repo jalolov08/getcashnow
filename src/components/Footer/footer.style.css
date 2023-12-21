@@ -1,0 +1,45 @@
+.footer {
+  background-color: #ecedef;
+  padding: 3.56253em 14.6875em;
+  margin: 0;
+}
+.footer_text {
+  margin: 0;
+  font-size: 0.875em;
+  color: #828282;
+}
+.footer_text:first-child {
+  margin-bottom: 1.5em;
+}
+.footer_privacy {
+  margin-top: 2em;
+  font-size: 0.75em;
+  color: #27a0c6;
+}
+@media only screen and (min-width: 1920px) {
+  .footer {
+    padding: 3.56253em 29.6875em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: 3.56253em 8em;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 3.56253em 1.6875em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 1.6875em 1em;
+  }
+}
+
+@media only screen and (max-width: 432px) {
+  .footer {
+    padding: 1.6875em 1em;
+  }
+}

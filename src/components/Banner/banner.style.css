@@ -64,10 +64,11 @@
 @media  screen and (max-width: 768px) {
     .banner {
       padding: 1.6875em 1em;
+      background-image: none;
     }
   }
   
-  @media only screen and (max-width: 432px) {
+  @media only screen and (max-width: 480px) {
     .banner {
       padding: 1.6875em 1em;
       background-image: none;

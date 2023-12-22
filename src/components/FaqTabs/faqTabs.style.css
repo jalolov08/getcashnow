@@ -37,76 +37,76 @@
 .react-tabs__tab-panel {
   border: 1px solid #bbc8cc;
 }
-.tab_content{
-    margin: 0;
-    padding: 1em;
-
+.tab_content {
+  margin: 0;
+  padding: 1em;
 }
 .tab_title {
   font-size: 2.25em;
   color: #616060;
   margin: 0;
-
 }
-.tab_content_subtitle{
-    font-size: 0.875em;
-    color: #616060;
+.tab_content_subtitle {
+  font-size: 0.875em;
+  color: #616060;
 }
-.tab_list{
-    margin: 0;
-    padding: 1em;
-    list-style:decimal;
+.tab_list {
+  margin: 0;
+  padding: 1em;
+  list-style: decimal;
 }
-.tab_list_title , .tab_list_item{
-    margin: 0;
-    font-size: 0.875em;
-    color: #616060;
+.tab_list_title,
+.tab_list_item {
+  margin: 0;
+  font-size: 0.875em;
+  color: #616060;
 }
-.tab_cards_cont{
+.tab_cards_cont {
   display: flex;
   padding: 1em;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.tab_card{
+.tab_card {
   width: 22%;
 }
-.tab_card_title{
+.tab_card_title {
   font-size: 1em;
   color: #616060;
 }
-.tab_card_list{
+.tab_card_list {
   list-style: none;
-  padding:  0em;
+  padding: 0em;
   border: 1px solid #bbc8cc;
 }
-.tab_card_list_item{
+.tab_card_list_item {
   padding: 0.5em;
   border-bottom: 1px solid #bbc8cc;
   color: #616060;
-
+  word-wrap: break-word;
 }
-.tab_card_list_item:last-child{
+.tab_card_list_item:last-child {
   border: none;
 }
-@media only screen and (max-width: 432px) {
+@media screen and (max-width: 1200px) {
   .tabs {
-   display: none;
+    padding: 3.56253em 8em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tabs {
+    display: none;
 
   }
 }
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .tabs {
     padding: 3.56253em 1.6875em;
   }
 }
 
-@media  screen and (max-width: 1200px) {
-  .tabs {
-    padding: 3.56253em 8em;
-  }
-}
-@media only  screen and (min-width: 1920px) {
+
+@media only screen and (min-width: 1920px) {
   .tabs {
     padding: 3.56253em 29.6875em;
   }

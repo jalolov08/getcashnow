@@ -2,7 +2,8 @@
   display: flex;
   width: 100%;
   border: 1px solid #bbc8cc;
-  height: 6.25em;
+  height:auto;
+  padding: 0.6em 0em;
   border-top: none;
   cursor: pointer;
   transition: 0.3s ease-in;
@@ -38,6 +39,7 @@
 }
 
 .badge_text {
+  width: max-content;
   margin: 0;
   color: #fff;
   font-size: 0.875em;
@@ -57,6 +59,7 @@
   padding: 0.5em 1.1875em;
   transition: 0.3s ease-in;
   cursor: pointer;
+  margin-bottom: 0.5em;
 }
 .row_btn:hover {
   color: #fff;
@@ -84,10 +87,11 @@
   display: none;
   width: 100%;
   border: 1px solid #bbc8cc;
-  height: 17.0625em;
+  height: auto;
   cursor: pointer;
   transition: 0.3s ease-in;
   margin: 1em 0;
+  padding-bottom: 0.5em;
   border-radius: 0.25em;
 }
 .table_item_mb:hover {
@@ -98,53 +102,86 @@
 .table_mfo {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  height: 4.3125em;
+  flex-wrap: wrap;
+  height: auto;
   border-bottom: 1px solid #e2ecef;
 }
 .row_badge_mb {
   width: max-content;
   height: max-content;
-  padding: 0em 0.5em;
-  margin: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ed6e58;
-  border-radius: 2.375em;
+  border-radius: 2.5em;
 }
 .row_mfo_mb {
   width: 10em;
   margin: 1em;
 }
-.table_info_cont{
+.table_info_cont {
   width: 34%;
   display: flex;
   flex-wrap: wrap;
-  text-align: center; 
-  padding-top: 3em; 
+  text-align: center;
+  padding-top: 3em;
 }
-.info_label , .info_data{
+.info_label,
+.info_data {
   margin: 0em;
   width: 100%;
-color: #616060;
-font-size: 1em;
+  color: #616060;
+  font-size: 1em;
 }
-.info_data{
+.info_data {
   font-weight: bold;
 }
-.row_info_cont{
+.row_info_cont {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-@media  screen and (max-width: 768px) {
- .table_item{
-  display: none;
-
+@media screen and (max-width: 768px) {
+  .table_item {
+    display: none;
+  }
+  .table_item_mb {
+    display: block;
+  }
 }
-.table_item_mb{
-  display: block;
-}
+@media screen and (max-width: 280px) {
+  .table_item_mb {
+    height: auto;
+  }
+  .table_info_cont {
+    width: 100%;
+  }
+  .table_mfo {
+    display: block;
+    height: auto;
+  }
+  .info_label,
+  .info_data {
+    font-size: 0.8em;
+  }
+  .row_badge_mb {
+    border-radius: 1.5em;
+    margin: 0.5em;
+  }
+  .row_mfo_mb {
+    margin: 0.5em;
+    height: auto;
+  }
+  .row_btn {
+    font-size: 0.8em;
+    padding: 0.3em 0.7em;
+  }
+  .row_advertising {
+   padding: 0.5em;
+    font-size: 0.5em;
+  }
 }

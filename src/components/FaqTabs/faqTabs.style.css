@@ -8,7 +8,9 @@
   padding: 0;
   border: none;
 }
-
+.accordion__panel{
+  padding: 0em !important;
+}
 .react-tabs__tab {
   padding: 0.75em 1.375em;
   cursor: pointer;
@@ -39,7 +41,7 @@
 }
 .tab_content {
   margin: 0;
-  padding: 1em;
+  padding: 0em;
 }
 .tab_title {
   font-size: 2.25em;
@@ -109,5 +111,11 @@
 @media only screen and (min-width: 1920px) {
   .tabs {
     padding: 3.56253em 29.6875em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .tab_title{
+    font-size: 1.2em;
   }
 }

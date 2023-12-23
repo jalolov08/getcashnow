@@ -1,7 +1,8 @@
 .cards {
   margin: 0;
-  padding: 3.56253em 14.6875em;
-  height: 12.1875em;
+  padding:2em 14.6875em;
+  padding-bottom: 0;
+  height: auto;
   display: flex;
   justify-content: center;
   position: relative;
@@ -11,7 +12,7 @@
 .card {
   margin: 0;
   width: 17.75em;
-  height: 24.375em;
+  height: auto;
   background-color: #fff;
   border: 2px solid #e2ecef;
   border-radius: 0.5em;
@@ -93,32 +94,32 @@
 
 @media only screen and (min-width: 1920px) {
   .cards {
-    padding: 3.56253em 29.6875em;
+    padding: 2em 29.6875em;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .cards {
-    padding: 3.56253em 8em;
+    padding: 2em 8em;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cards {
-    padding: 3.56253em 1.6875em;
+    padding: 2em 1.6875em;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .cards {
-    padding: 2.6875em 1em;
+    padding: 1.5em 1em;
   }
   .card_icon{
     display: unset;
   }
   .card {
-    width: 20.6875em;
-    height: 20.375em;
+    width: 50%;
+    height: auto;
   }
 
   .card:nth-child(3) {
@@ -147,12 +148,12 @@
 
 @media only screen and (max-width: 480px) {
   .cards {
-    padding: 1.6875em 0.75em;
+    padding: 0 0.75em;
   }
 
   .card {
-    width: 12.625em;
-    height: 16.8125em;
+    width: 50%;
+    height: auto;
   }
 
   .card:nth-child(3) {
@@ -177,5 +178,54 @@
 
   .card_texts_container {
     padding: 0em 0.625em;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .cards {
+    padding: 0 0.625em;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    margin: 0.5em 0;
+  }
+
+  .card_title_container {
+    display: none;
+  }
+
+  .card_logo_container {
+    text-align: center;
+  }
+
+  .card_logo {
+    width: 80%; 
+    height: auto;
+  }
+
+  .card_texts_container {
+    padding: 0.625em;
+  }
+
+  .card_up_to {
+    font-size: 1em;
+  }
+
+  .card_from {
+    font-size: 0.75em;
+  }
+
+  .card_btn {
+    font-size: 0.75em;
+  }
+
+  .card_tin {
+    font-size: 0.5em;
+  }
+
+  .card_icon {
+    display: unset;
   }
 }

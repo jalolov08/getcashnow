@@ -1,6 +1,6 @@
 .loans_table {
   margin: 0;
-  padding: 3.56253em 14.6875em;
+  padding: 2em 14.6875em;
 }
 .table_tabs{
     width: 100%;
@@ -29,26 +29,27 @@
 .tab_name{
     font-size: 0.75em;
     color: #616060;
+    text-align: center;
 }
 @media only  screen and (min-width: 1920px) {
     .loans_table {
-      padding: 3.56253em 29.6875em;
+      padding: 2em 29.6875em;
     }
   }
   @media  screen and (max-width: 1200px) {
     .loans_table {
-      padding: 3.56253em 8em;
+      padding: 2em 8em;
     }
   }
   @media  screen and (max-width: 1024px) {
     .loans_table {
-      padding: 3.56253em 1.6875em;
+      padding: 2em 1.6875em;
     }
   }
   
 @media  screen and (max-width: 768px) {
     .loans_table {
-      padding: 1.6875em 1em;
+      padding: 1em;
     }
     .table_tab{
         width: 34%;
